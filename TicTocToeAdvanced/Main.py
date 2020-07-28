@@ -1,3 +1,4 @@
+
 import tkinter.messagebox
 from tkinter import*
 
@@ -223,9 +224,9 @@ def NewGame():
     if (n1 > n2):
         tkinter.messagebox.showinfo("Winner X", " You have just won the match")
     elif (n1 < n2):
-        tkinter.messagebox.showinfo("Winner Y", " You have just won the match")
+        tkinter.messagebox.showinfo("Winner O", " You have just won the match")
     else:
-        tkinter.messagebox.showinfo("Winner X and Y", " The match is Tie")
+        tkinter.messagebox.showinfo("Winner X and O", " The match is Tie")
     reset()
     PlayerX.set(0)
     PlayerO.set(0)
